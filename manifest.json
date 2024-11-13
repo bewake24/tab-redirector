@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Redirector V3",
+    "description": "Redirects to a specific URL when opening a new tab.",
+    "version": "1.0",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "index.js"
+    }
+  }
